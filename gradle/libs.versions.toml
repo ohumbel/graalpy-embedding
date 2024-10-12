@@ -3,10 +3,9 @@
 
 [versions]
 junit-jupiter = "5.10.3"
-graalvm-polyglot = "24.1.0"
 graalvm-python = "24.1.0"
 
 [libraries]
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
-graalvm-polyglot = { module = "org.graalvm.polyglot:polyglot", version.ref = "graalvm-polyglot" }
+graalvm-polyglot = { module = "org.graalvm.polyglot:polyglot", version.ref = "graalvm-python" }
 graalvm-python = { module = "org.graalvm.polyglot:python", version.ref = "graalvm-python" }
